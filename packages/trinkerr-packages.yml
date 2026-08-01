@@ -1,0 +1,27 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=trinkerr
+packages:
+- language: javascript
+  registry: npm
+  name: trinkerr-ui
+  url: https://www.npmjs.com/package/trinkerr-ui
+  install: npm install trinkerr-ui
+  official: true
+  api_client: false
+  description: The Design System for React Native Applications — Trinkerr's first-party
+    React Native UI design system (MIT), published by npm user "trinkerr" (dev@trinkerr.com).
+  latest_version: 1.0.5
+  first_published: '2022-02-22'
+  last_published: '2022-04-29'
+  repository: https://github.com/trinkerr-dev/trinkerr-ui
+  homepage: https://trinkerrui.netlify.app
+  keywords: [react-native, ios, android]
+notes: >-
+  No first-party API client libraries were found on npm, PyPI, RubyGems, or other
+  registries (PyPI /pypi/trinkerr/json returned 404). The single first-party package
+  is a mobile UI design system, not an API SDK, so no SDKs pointer is emitted.
+  The GitHub account github.com/trinkerr-dev holds only forks (TradingView
+  charting-library-tutorial, docuowl, react-native-simple-toast) and a sample
+  Kafka cluster; the trinkerr-ui repository referenced by the npm package is no
+  longer public.

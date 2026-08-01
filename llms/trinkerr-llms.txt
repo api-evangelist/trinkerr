@@ -1,0 +1,20 @@
+# Trinkerr
+
+> Trinkerr is a Bengaluru, India algorithmic and social trading platform founded in 2021 by Manvendra Singh and Gaurav Agarwal, backed by Accel and India Quotient. Its mobile app (com.trinkerr.app) automates trades with ready-made algos crafted by industry experts. As of 2026-07-21 the company website trinkerr.com resolves to a GoDaddy parked landing page, no api/docs/developer subdomains resolve in DNS, and no developer portal, API documentation, or public API surface could be found. Trinkerr does not currently publish a public API.
+
+## Company
+
+- [Website (parked as of 2026-07-21)](https://www.trinkerr.com)
+- [Google Play app](https://play.google.com/store/apps/details?id=com.trinkerr.app)
+- [LinkedIn](https://in.linkedin.com/company/trinkerr)
+- [YouTube](https://www.youtube.com/@trinkerr)
+- [GitHub](https://github.com/trinkerr-dev)
+
+## Packages
+
+- [trinkerr-ui on npm](https://www.npmjs.com/package/trinkerr-ui): First-party React Native design system (MIT, latest 1.0.5, 2022) — a UI library, not an API client
+- [trinkerr-ui docs](https://trinkerrui.netlify.app)
+
+## APIs
+
+- None published. No OpenAPI, developer docs, or API reference were found.

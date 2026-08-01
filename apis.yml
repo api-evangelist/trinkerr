@@ -1,8 +1,25 @@
 aid: trinkerr
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trinkerr.png
 name: Trinkerr
-description: 'Trinkerr is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Trinkerr is a Bengaluru, India algorithmic and social trading platform
+  founded in 2021 by Manvendra Singh and Gaurav Agarwal, backed by Accel and India
+  Quotient. Its mobile app (com.trinkerr.app) automates trades with ready-made algos
+  crafted by industry experts for stock market enthusiasts. As of 2026-07-21 the
+  company website trinkerr.com resolves to a GoDaddy parked page, no api/docs/developer
+  subdomains resolve, and no developer portal, API documentation, or public API surface
+  could be found, though the Google Play listing, LinkedIn, and YouTube channel remain
+  live. Trinkerr does not currently publish a public API.'
 url: https://raw.githubusercontent.com/api-evangelist/trinkerr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cloud Saas
+- Trading
+- Algorithmic Trading
+- Fintech
+- India
+- Stock Market
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trinkerr-domain-security.yml
 - type: Website
-  url: http://www.trinkerr.com
+  url: https://www.trinkerr.com
+- type: Packages
+  url: packages/trinkerr-packages.yml
+- type: LLMsTxt
+  url: llms/trinkerr-llms.txt
+- type: GitHubOrganization
+  url: https://github.com/trinkerr-dev
+- type: LinkedIn
+  url: https://in.linkedin.com/company/trinkerr
+- type: YouTube
+  url: https://www.youtube.com/@trinkerr
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.trinkerr.app
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
